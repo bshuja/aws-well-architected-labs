@@ -1,6 +1,6 @@
 ---
 title: "Upload a file with the opt-in Deep Archive Access tier enabled"
-date: 2023-04-05T11:16:09-04:00
+date: 2023-04-03T26:16:08-04:00
 chapter: false
 weight: 6
 pre: "<b>5. </b>"
@@ -21,3 +21,4 @@ In section 4, we enabled the Deep Archive Access tier only for objects with tag 
 
 5. Because we want the file to be archived after 6 months of no access, in the Tags – optional section we select Add tag with Key “opt-in-archive” and Value “true”, and choose Upload.
 ![Images/S3IntelligentTiering29.png](/Cost/100_S3_Intelligent_Tiering/Images/S3-IntelligentTiering-29.png)
+

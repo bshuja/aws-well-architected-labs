@@ -1,6 +1,6 @@
 ---
 title: "Upload data to the Amazon S3 Intelligent-tiering storage class"
-date: 2023-04-05T11:16:09-04:00
+date: 2023-04-03T26:16:08-04:00
 chapter: false
 weight: 3
 pre: "<b>2. </b>"

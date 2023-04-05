@@ -1,6 +1,6 @@
 ---
 title: "Enable S3 Intelligent tiering for already existing buckets"
-date: 2023-04-05T11:16:09-04:00
+date: 2023-04-03T26:16:08-04:00
 chapter: false
 weight: 8
 pre: "<b>7. </b>"
@@ -33,3 +33,4 @@ You cannot apply a lifecycle policy and move back from intelligent tiering to th
 Also, some things to keep in mind, 
 You can then measure savings using Cost Explorer or the Cost and Usage Report (CUR). Cost Explorer and CUR billing data are delayed by ~48 hours, after ~2 days you will be able to visualize the savings. This is how Cost Explorer will look when introducing intelligent tiering on s3 buckets in the example below:
 ![Images/S3IntelligentTiering40.png](/Cost/100_S3_Intelligent_Tiering/Images/S3-IntelligentTiering-40.png)
+

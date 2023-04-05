@@ -1,6 +1,6 @@
 ---
 title: "Transition objects to the Amazon S3 Intelligent-Tiering storage class using Amazon S3 lifecycle"
-date: 2023-04-05T11:16:09-04:00
+date: 2023-04-03T26:16:08-04:00
 chapter: false
 weight: 4
 pre: "<b>3. </b>"
