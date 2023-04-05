@@ -3,7 +3,7 @@ title: "Level 100: Amazon S3 Intelligent Tiering"
 #menutitle: "Lab #3"
 date: 2023-04-05T11:16:08-04:00
 chapter: false
-weight: 1
+weight: 9
 ---
 ## Last Updated
 April 2023
