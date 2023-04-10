@@ -8,7 +8,7 @@ hidden: false
 ---
 
 ## Authors
-* **Bilal Shuja**, Technical Account Manager.
+* **Bilal Shuja**, AWS Technical Account Manager.
 * **Jerry Chen**, Solutions Architect, AWS Well-Architected.
 
 ## Contributors
