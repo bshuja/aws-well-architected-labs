@@ -26,3 +26,6 @@ Now that your bucket has been created and configured, you are ready to upload da
 ![Images/S3IntelligentTiering14.png](/Cost/100_S3_Intelligent_Tiering/Images/S3-IntelligentTiering-14.png)
 
 You have successfully uploaded your file to your bucket using the S3 Intelligent-Tiering storage class. Next, we will discuss transitioning objects that are already stored in the S3 Standard or in the S3 Standard-IA storage classes to the S3 Intelligent-Tiering storage class.
+
+Click on **Next Step** to continue to the next section.
+{{< prev_next_button link_prev_url="../1_create_s3_bucket/" link_next_url="../3_s3_lifecycle/" />}}

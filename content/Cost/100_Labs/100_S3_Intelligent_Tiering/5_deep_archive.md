@@ -22,3 +22,5 @@ In section 4, we enabled the Deep Archive Access tier only for objects with tag 
 5. Because we want the file to be archived after 6 months of no access, in the Tags – optional section we select Add tag with Key “opt-in-archive” and Value “true”, and choose Upload.
 ![Images/S3IntelligentTiering29.png](/Cost/100_S3_Intelligent_Tiering/Images/S3-IntelligentTiering-29.png)
 
+Click on **Next Step** to continue to the next section.
+{{< prev_next_button link_prev_url="../4_async_archive/" link_next_url="../6_restore_data/" />}}

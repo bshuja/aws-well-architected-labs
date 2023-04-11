@@ -13,7 +13,7 @@ In this step, you will learn how to restore a file. This will happen after the f
 2. In the Objects tab, select the file stored in the Intelligent-Tiering Deep Archive Access tier.
 Then move to Properties tab, In Properties tab, you will notice that both the Download and Open buttons are grayed out, and a banner notifies you that in order to access the file you must first restore it. To initiate the restore, choose Initiate restore.
 ![Images/S3IntelligentTiering30.png](/Cost/100_S3_Intelligent_Tiering/Images/S3-IntelligentTiering-30.png)
-![Images/S3IntelligentTiering31.png](/Cost/100_S3_Intelligent_Tiering/Images/S3-IntelligentTiering-31.png)
+<!--- ![Images/S3IntelligentTiering31.png](/Cost/100_S3_Intelligent_Tiering/Images/S3-IntelligentTiering-31.png) --->
 
 3. In the following Initiate restore form, you can select the type of restore. The Bulk retrieval typically completes within 48 hours while the Standard retrieval typically completes within 12 hours; both options are available at no charge. See [Archive retrieval options](https://docs.aws.amazon.com/AmazonS3/latest/userguide/restoring-objects-retrieval-options.html) for more information. For this workload, select the Standard retrieval option because it is required to complete the restore within 12 hours. Now you can initiate the restore by choosing Initiate restore.
 ![Images/S3IntelligentTiering32.png](/Cost/100_S3_Intelligent_Tiering/Images/S3-IntelligentTiering-32.png)
@@ -25,3 +25,6 @@ Then move to Properties tab, In Properties tab, you will notice that both the Do
 ![Images/S3IntelligentTiering34.png](/Cost/100_S3_Intelligent_Tiering/Images/S3-IntelligentTiering-34.png)
 
 6. Once the restore operation has completed (typically within 12 hours), you are able to download the file by choosing Download.
+
+Click on **Next Step** to continue to the next section.
+{{< prev_next_button link_prev_url="../5_deep_archive/" link_next_url="../7_enable_existing_buckets/" />}}

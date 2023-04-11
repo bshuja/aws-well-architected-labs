@@ -21,14 +21,17 @@ When you create an S3 Lifecycle rule, you have the option to limit the scope of 
 
 For this workload we want to apply the Lifecycle rule to all objects in the bucket and therefore we won’t apply any filters.
 
-Enter a descriptive Lifecycle rule name.
-Select Apply to all objects in the bucket.
-Select the I acknowledge that this rule will apply to all objects in the bucket checkbox.
-In the Lifecycle rule actions, select the Move current versions of objects between storage classes checkbox. For more information, see [Using versioning in S3 buckets](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html).
-In the Transition current versions of objects between storage classes section, select Intelligent-Tiering as Choose storage class transitions, and input 0 as Days after object creation.
-Finally, choose Create rule.
+* Enter a descriptive Lifecycle rule name.
+* Select Apply to all objects in the bucket.
+* Select the I acknowledge that this rule will apply to all objects in the bucket checkbox.
+* In the Lifecycle rule actions, select the Move current versions of objects between storage classes checkbox. For more information, see [Using versioning in S3 buckets](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html).
+* In the Transition current versions of objects between storage classes section, select Intelligent-Tiering as Choose storage class transitions, and input 0 as Days after object creation.
+* Finally, choose Create rule.
 ![Images/S3IntelligentTiering17.png](/Cost/100_S3_Intelligent_Tiering/Images/S3-IntelligentTiering-17.png)
 
 In this step, we created a Lifecycle rule to immediately transition files uploaded in the S3 Standard storage class into the S3 Intelligent-Tiering storage class.
 ![Images/S3IntelligentTiering18.png](/Cost/100_S3_Intelligent_Tiering/Images/S3-IntelligentTiering-18.png)
+
+Click on **Next Step** to continue to the next section.
+{{< prev_next_button link_prev_url="../2_upload_data/" link_next_url="../4_async_archive/" />}}
 

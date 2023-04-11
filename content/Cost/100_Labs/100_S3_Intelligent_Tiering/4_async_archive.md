@@ -34,3 +34,6 @@ Make sure that the Status of the configuration is Enable.
 ![Images/S3IntelligentTiering25.png](/Cost/100_S3_Intelligent_Tiering/Images/S3-IntelligentTiering-25.png)
 
 Like this, for every object you create you can define tag key ““opt-in-archive” to identify objects with archive tiering enabled.
+
+Click on **Next Step** to continue to the next section.
+{{< prev_next_button link_prev_url="../3_s3_lifecycle/" link_next_url="../5_deep_archive/" />}}
